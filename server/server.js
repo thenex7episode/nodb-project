@@ -6,12 +6,8 @@ const ctrl = require ('./controller')
 const app = express()
 app.use(bodyParser.json())
 
-app.get('/api/test', (req, res) => {
-    res.status(200).json('Hello from the backend')
-})
-
 app.get('/api/genre/:genre', ctrl.read)
 app.post('/api/create', ctrl.create)
-app.put('/api/update/:property/:id', ctrl.update)
+app.put('/api/update/:id', ctrl.update)
 app.delete('/api/delete/:id', ctrl.delete)
 app.listen(PORT, () => console.log('And we are live on Port:' + PORT))

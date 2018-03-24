@@ -4,7 +4,7 @@ var songs = [ {
     title: 'Bad Company',
     artist: "Five Finger Death Punch",
     album: 'War is the answer',
-    cover: 'https://en.wikipedia.org/wiki/War_Is_the_Answer#/media/File:War_is_the_Answer_Album_Art.JPG'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/2/27/War_is_the_Answer_Album_Art.JPG'
 },
   {
     id: 2,
@@ -12,7 +12,7 @@ var songs = [ {
     title: 'The Devil In I',
     artist: 'SlipKnot',
     album: '.5: The Gray Chapter',
-    cover: 'https://en.wikipedia.org/wiki/.5:_The_Gray_Chapter#/media/File:5_The_Gray_Chapter_Artwork.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/3/36/5_The_Gray_Chapter_Artwork.jpg'
 },
   {
     id: 3,
@@ -20,7 +20,7 @@ var songs = [ {
     title: 'Brainless',
     artist: 'Eminem',
     album:'Marshall Mathers LP 2',
-    cover: 'https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP_2#/media/File:The_Marshall_Mathers_LP_2.png'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/8/87/The_Marshall_Mathers_LP_2.png'
 },
   {
     id: 4,
@@ -28,7 +28,7 @@ var songs = [ {
     title: 'She (Ft. Frank Ocean)',
     artist: 'Tyler the Creator',
     album: 'Goblin',
-    cover: 'https://en.wikipedia.org/wiki/Goblin_(album)#/media/File:Goblindeluxeedition.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/f/f6/Goblindeluxeedition.jpg'
 },
   {
     id: 5 ,
@@ -36,7 +36,7 @@ var songs = [ {
     title: 'Sold',
     artist: 'John Michael Montgomery',
     album: 'Sold (The Grundy County Auction Incident',
-    cover: 'https://en.wikipedia.org/wiki/Sold_(The_Grundy_County_Auction_Incident)#/media/File:JMM_-_Sold_single.png'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/d/d7/JMM_-_Sold_single.png'
 },
   {
     id: 6,
@@ -44,7 +44,7 @@ var songs = [ {
     title: 'Farmers Daughter',
     artist: 'Rodney Atkins',
     album: 'Take A Back Road',
-    cover: 'https://en.wikipedia.org/wiki/Take_a_Back_Road#/media/File:TakeaBackRoadAlbum.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/8/86/TakeaBackRoadAlbum.jpg'
 },
   {
     id: 7,
@@ -52,7 +52,7 @@ var songs = [ {
     title: 'It Was Always You',
     artist: 'Maroon 5',
     album: 'V',
-    cover: 'https://en.wikipedia.org/wiki/V_(Maroon_5_album)#/media/File:Maroon_5_-_V_(Official_Album_Cover).png'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/5/53/Maroon_5_-_V_%28Official_Album_Cover%29.png'
 },
   {
     id: 8,
@@ -60,7 +60,7 @@ var songs = [ {
     title: 'All The Way',
     artist: 'Timeflies',
     album: 'After Hours',
-    cover: 'https://en.wikipedia.org/wiki/After_Hours_(Timeflies_album)#/media/File:Timeflies_afterhours.png'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/1/1b/Timeflies_afterhours.png'
 },
   {
     id: 9,
@@ -68,7 +68,7 @@ var songs = [ {
     title: 'Alguien Soy Yo',
     artist: 'Enrique Iglesias',
     album: 'Insomniac',
-    cover: 'https://en.wikipedia.org/wiki/Insomniac_(Enrique_Iglesias_album)#/media/File:Enriqueinsomniac.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/7/72/Enriqueinsomniac.jpg'
 },
   {
     id: 10,
@@ -76,7 +76,7 @@ var songs = [ {
     title: 'Chantaje',
     artist: 'Shakira',
     album: 'El Dorado',
-    cover: 'https://en.wikipedia.org/wiki/El_Dorado_(Shakira_album)#/media/File:Shakira_El_Dorado_cover.png'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Shakira_El_Dorado_cover.png'
 },
   {
     id: 11,
@@ -84,7 +84,7 @@ var songs = [ {
     title: 'Enemies',
     artist: 'Shinedown',
     album: 'Amaryllis',
-    cover: 'https://en.wikipedia.org/wiki/Amaryllis_(Shinedown_album)#/media/File:Shinedown-Amaryllis.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/8/82/Shinedown-Amaryllis.jpg'
 },
   {
     id: 12,
@@ -92,7 +92,7 @@ var songs = [ {
     title: 'I Stand Alone',
     artist: 'Godsmack',
     album: 'faceless',
-    cover: 'https://en.wikipedia.org/wiki/I_Stand_Alone_(Godsmack_song)#/media/File:GodsmackIStandAloneCover.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/a/a6/GodsmackIStandAloneCover.jpg'
 },
   {
     id: 13, 
@@ -100,7 +100,7 @@ var songs = [ {
     title: 'II. Worldstar',
     artist: 'Childish Gambino',
     album: 'Because The Internet',
-    cover: 'https://en.wikipedia.org/wiki/Because_the_Internet#/media/File:Childish-gambino-because-the-internet.gif'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/7/70/Childish-gambino-because-the-internet.gif'
 },
   {
     id:14,
@@ -108,7 +108,7 @@ var songs = [ {
     title: 'Ill Mind of Hopsin 8',
     artist: 'Hopsin',
     album: 'Ill Mind of Hopsin 8',
-    cover: 'https://en.wikipedia.org/wiki/Ill_Mind_of_Hopsin_8#/media/File:Ill_Mind_of_Hopsin_8_cover.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/7/7e/Ill_Mind_of_Hopsin_8_cover.jpg'
 },
  {
     id: 15,
@@ -116,7 +116,7 @@ var songs = [ {
     title: 'Colder Weather',
     artist: 'Zac Brown Band',
     album: 'You Get What You Give',
-    cover: 'https://en.wikipedia.org/wiki/You_Get_What_You_Give_(album)#/media/File:ZacBrownBandYGWYG.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/7/75/ZacBrownBandYGWYG.jpg'
 },
  {
     id: 16,
@@ -124,7 +124,7 @@ var songs = [ {
     title: 'Red Solo Cup',
     artist: 'Toby Keith',
     album: `Clancy's Tavern`,
-    cover: 'https://en.wikipedia.org/wiki/Clancy%27s_Tavern#/media/File:ClancysTavern.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/a/a6/ClancysTavern.jpg'
 },
  {
     id: 17,
@@ -132,7 +132,7 @@ var songs = [ {
     title: 'Here Comes the Weekend',
     artist: 'Pink',
     album: 'The Truth About Love',
-    cover: 'https://en.wikipedia.org/wiki/The_Truth_About_Love_(Pink_album)#/media/File:The_Truth_About_Love.png'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/7/7e/The_Truth_About_Love.png'
 },
  {
     id: 18,
@@ -140,7 +140,7 @@ var songs = [ {
     title: 'I Want It That Way',
     artist: 'Backstreet Boys',
     album: 'Millenium',
-    cover: 'https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)#/media/File:Millennium_cover.jpg'
+    cover: 'https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg'
 },
  {
     id: 19,
@@ -163,46 +163,35 @@ let id  = 21
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 module.exports = {
 create: (req, res) => {
    const { type, title, artist, album, cover } = req.body
     songs.push({id,type,title,artist,album,cover});
     id ++
+    console.log(songs[21])
     res.status(200).send(songs)
 },
 
-read: (req, res) => {
+read: (req, res) => {console.log(req.params)
+  if(req.params.genre != 'All'){
+    
+  
  let filteredSongs =songs.filter((el) => {
-   return el.type === req.params.genre
-})
-res.status(200).send(filteredSongs)
+   if(el.type === req.params.genre) {
+     return true
+   }
+   })
+   res.status(200).send(filteredSongs)
+  }else {res.status(200).send(songs)}
+
 },
 update: (req, res) => {
+    console.log(req.body)
     
-    const Taco = req.body[req.params.property]
     const updateSong = req.params.id
     const songIndex = songs.findIndex(song => song.id == updateSong)
-    let song = songs[songIndex]
+    songs[songIndex] = req.body
     
-    
-        song[req.params.property] = Taco
     
 res.status(200).send(songs)
 },
