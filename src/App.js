@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios'
 import UpdateSong from './components/UpdateSong' 
 import CreateSong from './components/CreateSong'
+import Header from './components/Header'
 
 class App extends Component {
   constructor() {
@@ -80,7 +81,7 @@ createSong(id) {
                   </div>
                    }
                   </div>)
-    console.log(e)
+    
     
     
     })
@@ -94,8 +95,9 @@ createSong(id) {
     // const {arr} = this.state;
     return (
       <div className="App">
+      <Header/>
         {this.state.add ? <CreateSong createSong = {this.getSong}/> :<button onClick = {e => this.setState({add: true})}>Add Song</button>}
-        <select value={this.state.value} onChange ={e => this.handleChange(e.target.value)}>
+        <select className='select' value={this.state.value} onChange ={e => this.handleChange(e.target.value)}>
         <option value="All">All</option>
         <option value="Rock">Rock</option>
         <option value="Country">Country</option>
