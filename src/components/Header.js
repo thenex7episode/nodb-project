@@ -4,7 +4,7 @@ import '../App.css'
 export default class Header extends Component {
     render() {
         return (
-            <p class = 'title'>Themes of Me</p>
+            <div className = 'title'>Themes of Me</div>
         );
     }
 }

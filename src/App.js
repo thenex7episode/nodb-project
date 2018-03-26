@@ -73,9 +73,9 @@ createSong(id) {
 
                    {e.update ? <UpdateSong updateSong = {this.getSong}song = {e}/> : 
                     <div>
-                  <p>{e.artist}</p>
-                  <p>{e.title}</p> 
-                  <p>{e.album}</p>
+                  <p>Artist: {e.artist}</p>
+                  <p>Title: {e.title}</p> 
+                  <p>Album: {e.album}</p>
                   <button onClick = {() => this.deleteSong(e.id)}>delete</button>
                   <button onClick = {() => this.updateSong(i)}>Edit</button>
                   </div>
