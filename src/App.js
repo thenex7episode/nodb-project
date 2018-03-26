@@ -96,7 +96,6 @@ createSong(id) {
     return (
       <div className="App">
       <Header/>
-        {this.state.add ? <CreateSong createSong = {this.getSong}/> :<button onClick = {e => this.setState({add: true})}>Add Song</button>}
         <select className='select' value={this.state.value} onChange ={e => this.handleChange(e.target.value)}>
         <option value="All">All</option>
         <option value="Rock">Rock</option>
@@ -105,6 +104,7 @@ createSong(id) {
         <option value="Rap">Rap</option>
         <option value="Pop">Pop</option>
         </select>
+        {this.state.add ? <CreateSong createSong = {this.getSong}/> :<button onClick = {e => this.setState({add: true})}>Add Song</button>}
       {this.handleSubmit()}
         
       </div>
