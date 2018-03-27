@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   font-family: 'Times New Roman';
-  background: url(http://twinflamesmastery.com/wp-content/uploads/2017/04/cropped-the_heavens_and_us__with_video_tutorial_link__by_yuumei-d9jrqmp.jpg) no-repeat center fixed;
-  -webkit-background-size: cover;
+  background: url(http://twinflamesmastery.com/wp-content/uploads/2017/04/cropped-the_heavens_and_us__with_video_tutorial_link__by_yuumei-d9jrqmp.jpg) no-repeat center fixed ;
+  background-size: cover;
+  
   
   
 }
@@ -48,15 +49,22 @@ button{
 }
 
 
-p {
+.border {
   border: solid white;
   /* background-color: white; */
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 4px 4px rgb(19, 167, 204);
+  /* text-shadow: 4px 4px rgb(19, 167, 204); */
   font-size: 20pt;
   color: white;
+  width: 40%;
   display: table;
+  text-decoration: underline;
+  /* background: url(http://twinflamesmastery.com/wp-content/uploads/2017/04/cropped-the_heavens_and_us__with_video_tutorial_link__by_yuumei-d9jrqmp.jpg) center; */
+  margin-top: 1em;
+ 
+              
+  
   
   
 }
@@ -64,9 +72,21 @@ input{
   padding: 15px 32px;
   color: white;
   background-color: rgb(41, 39, 161);
-  font-size: 16pt
+  font-size: 16pt;
+  direction: rtl
 }
 ::-webkit-input-placeholder{
   color: white
 }
 
+
+img{
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.CreateSong{
+  font-size: 30pt;
+  color:white
+}

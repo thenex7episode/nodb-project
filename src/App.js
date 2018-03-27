@@ -4,6 +4,7 @@ import axios from 'axios'
 import UpdateSong from './components/UpdateSong' 
 import CreateSong from './components/CreateSong'
 import Header from './components/Header'
+import Artist from './components/Artist'
 
 class App extends Component {
   constructor() {
@@ -38,8 +39,8 @@ getSong() {console.log(this.state.input)
   
 }  
 
-createSong(id) {
- this.state.arr.push()
+createSong() {
+//  this.state.arr.push()
 }
 
 
@@ -52,6 +53,7 @@ createSong(id) {
     }
 
   deleteSong(id){
+    // alert('Really?')
     axios.delete(`/api/delete/${id}`).then(r => {
       this.getSong()
     })
@@ -68,14 +70,17 @@ createSong(id) {
        html  = <p>nothing found</p>
     }else {
      html = this.state.arr.map ((e,i) => { 
-       return(<div> 
+       return(<div className='border'> 
                   <img src={e.cover} />
 
                    {e.update ? <UpdateSong updateSong = {this.getSong}song = {e}/> : 
                     <div>
-                  <p>Artist: {e.artist}</p>
+                      <Artist name={'Artist'} info={e.artist}/>
+                      <Artist name= {'Title'}info={e.title}/>
+                      <Artist name= {'Album'}info={e.album}/>
+                  {/* <p>Artist: {e.artist}</p>
                   <p>Title: {e.title}</p> 
-                  <p>Album: {e.album}</p>
+                  <p>Album: {e.album}</p> */}
                   <button onClick = {() => this.deleteSong(e.id)}>delete</button>
                   <button onClick = {() => this.updateSong(i)}>Edit</button>
                   </div>
@@ -104,7 +109,7 @@ createSong(id) {
         <option value="Rap">Rap</option>
         <option value="Pop">Pop</option>
         </select>
-        {this.state.add ? <CreateSong createSong = {this.getSong}/> :<button onClick = {e => this.setState({add: true})}>Add Song</button>}
+        {this.state.add ? <CreateSong createSong = {this.getSong}/> :<button onClick = {e => this.setState({add: true})}>Add Song Here</button>}
       {this.handleSubmit()}
         
       </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import '../App.css'
+import '../'
 export default class CreateSong extends Component {
 
 
@@ -33,7 +33,7 @@ this.addSong = this.addSong.bind(this)
     render() {
         return (
             <div>
-            <div>Create Song</div>
+            <div className = 'CreateSong'>Adding Song</div>
                 <input placeholder= 'cover URL' value = {this.state.cover} type="text" onChange = {e => this.handleChange( 'cover', e.target.value )}/>
                 <input placeholder= 'type' value = {this.state.type} type="text" onChange = {e => this.handleChange( 'type', e.target.value)}/>
                 <input placeholder = 'artist' value = {this.state.artist} type="text" onChange = {e => this.handleChange('artist', e.target.value )}/>
